@@ -1,0 +1,60 @@
+body {
+    font-family:'Courier New', Courier, monospace, sans-serif;
+    text-align: center;
+    background-color: #80f98a;
+}
+
+.container {
+    background-color: #7da7ec;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #a09b9b;
+    border-radius: 5px;
+}
+
+h1 img{
+    width: 30px;
+    margin-left: 15px;
+}
+button{
+    border:none;
+    outline: none;
+    padding: 15px 50px;
+    background: rgb(249, 100, 140);
+    color: rgb(245, 240, 240);
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #fafefd;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.delete {
+    color: #161010;
+    cursor: pointer;
+}
